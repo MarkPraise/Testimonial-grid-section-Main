@@ -15,10 +15,8 @@ body{
 
 .testimony{
     padding: 1.5rem;
-    border: 3px solid red;
     border-radius: .5rem;
     line-height: 1.5;
-    background-color: greenyellow;
     color:  hsl(0, 0%, 100%);
 }
 .testimony>p:nth-of-type(1){
@@ -58,3 +56,21 @@ body{
     color: white;
 }
 
+/* Block scope Styling */
+
+.daniels-testimony{
+    background-color: hsl(263, 55%, 52%);
+}
+.jonathans-testimony{
+    background-color: hsl(217, 19%, 35%);
+}
+.abrams-testimony{
+    background-color:  hsl(219, 29%, 14%);
+}
+
+/* Exception Scope Styling */
+
+.jeans-testimony,.kiras-testimony{
+    background-color: white;
+    color:  hsl(217, 19%, 35%);
+}
