@@ -1,0 +1,14 @@
+body{
+    font-family:"Barlow Semi Condensed", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(210, 46%, 95%);
+    padding: 3rem 0 3rem 0;
+}
+.grid-Container{
+    display: grid;
+    width: 80%;
+    gap: 2.5rem;
+}
